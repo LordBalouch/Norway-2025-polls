@@ -1,0 +1,7 @@
+blocks:
+  left: [Ap, SV, Sp, R, MDG]
+  right: [H, FrP, V, KrF]
+alternatives:
+  rodgronn_2021_style: [Ap, Sp, SV]
+  borgerlig_4: [H, FrP, V, KrF]
+  sentrum_hoyre: [H, V, KrF]
