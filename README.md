@@ -53,13 +53,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Run notebooks
+## 2. Run notebooks
 Open JupyterLab or VSCode, and select kernel "Python (Norway-Polls)".
 
 - 01_ingest_polls.ipynb → loads polls into SQLite and verifies dataset.  
 - 02_eda_and_model.ipynb → runs EDA and the forecasting model.  
 
-### 3. Update data
+## 3. Update data
 Fetch monthly averages from pollofpolls.no:
 ```bash
 PYTHONPATH=. python scripts/fetch_pollofpolls_monthly.py --year 2025
@@ -104,4 +104,4 @@ PYTHONPATH=. python scripts/fetch_pollofpolls_monthly.py --year 2025
 Babak Balouch 
 Data Analyst
 Norway  
-
+lord.balouch@gmail.com
